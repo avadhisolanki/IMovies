@@ -1,0 +1,14 @@
+{
+  "name": "imovies",
+  "version": "1.0.0",
+  "description": "iMovies - Amazon Prime Video styled Theatrical Ticket Booking Application",
+  "type": "module",
+  "main": "server/src/server.js",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "test": "node server/test-runner.js"
+  }
+}

@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0f171e;
+    color: #ffffff;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom sleek Prime Video scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f171e;
+}
+::-webkit-scrollbar-thumb {
+  background: #253241;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00a8e1;
+}
+
+/* Hide scrollbar for carousel while preserving smooth scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Screen curve arc effect */
+.cinema-screen-curve {
+  position: relative;
+  height: 16px;
+  border-radius: 50% 50% 0 0;
+  border-top: 5px solid #00a8e1;
+  box-shadow: 0 -12px 30px rgba(0, 168, 225, 0.45);
+}
+
+/* Ticket perforated edge */
+.ticket-perforated {
+  background: radial-gradient(circle at 0% 50%, transparent 12px, #1a242f 13px),
+              radial-gradient(circle at 100% 50%, transparent 12px, #1a242f 13px);
+}
