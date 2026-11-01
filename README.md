@@ -6,6 +6,19 @@ Powered by **React.js (Vite)**, **Tailwind CSS**, **Node.js + Express.js**, and 
 
 ---
 
+## 📁 Project Documentation
+
+Comprehensive technical documentation, architectural specifications, and visual workflow diagrams are maintained in the [`docs/`](docs/) directory:
+
+| Document | Description | Format |
+| :--- | :--- | :--- |
+| [🏛️ **System Architecture & MVC Implementation**](docs/architecture.md) | Deep-dive into Models, Views, Controllers, data flow, security, and the complete request lifecycle. | Markdown |
+| [👥 **Team Roles & Responsibilities**](docs/roles.md) | Contribution breakdown table, module ownership, and engineering quality standards. | Markdown Table |
+| [📊 **Entity-Relationship (ER) Diagram**](docs/diagrams/er-diagram.md) | Complete database entity schema, attributes, keys, and cardinality relationships. | Mermaid.js |
+| [🗺️ **User Journey & Workflow Diagram**](docs/diagrams/user-flow.md) | End-to-end user experience flow from landing page to OTP verification, seat hold, Razorpay payment, and Brevo ticket pass. | Mermaid.js |
+
+---
+
 ## 🌟 Key Features
 
 1. **Official TMDB (The Movie Database) API v3 Integration**:
